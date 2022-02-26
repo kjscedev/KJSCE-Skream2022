@@ -1,7 +1,7 @@
 :root {
     --bg-color: #fff;
-    --primary-color: #f6ad23;
-    --secondary-color: #f6ad23;
+    --primary-color: #FD7E2F;
+    --secondary-color: #24D1A4;
     --accent-color: #cccccc;
 }
 
@@ -716,19 +716,19 @@ a:hover {
 .prize-money.team .winning-place .column {
     flex: 1;
     font-size: 20px;
-    color: #fff;
+    color: #24D1A4;
     margin-top: 2px;
     margin-right: 2px;
     padding-left: 13px;
     font-family: 'UniSansBold';
     text-transform: uppercase;
-    background: #5c4bcf;
+    background: #DBFFF5;
 }
 
 .prize-money.team .winning-place .column.label {
     flex: 1;
-    background: #24d1a4;
-    color: #fff;
+    background: #FFEFE5;
+    color: #FD7E2F;
     font-size: 16px;
     text-transform: uppercase;
     padding-top: 5px;
@@ -762,6 +762,7 @@ a:hover {
     justify-content: flex-start;
     align-items: flex-end;
     padding: 5px;
+    font-family: UniSansRegular;
     text-transform: uppercase;
     color: #434242;
     letter-spacing: 1px;
@@ -780,10 +781,10 @@ a:hover {
     align-items: center;
     margin-right: 2px;
     font-size: 20px;
-    color: #fff;
+    color: #FD7E2F;
     font-family: 'UniSansBold';
     text-transform: uppercase;
-    background: #5c4bcf;
+    background: #FFEFE5;
 }
 
 /*-------------------------------------RIGHT SECTION-----------------------------------------------*/
@@ -1105,7 +1106,7 @@ a:hover {
 }
 .rules-wrapper .main-heading {
 /*    display: none;*/
-    font-family: Lakeshore;
+    font-family: UniSansBold;
     color: var(--primary-color);
     font-size: 55px;
 }
@@ -1144,7 +1145,7 @@ a:hover {
 
 
 .heading{
-    font-family: 'Lakeshore'!important;
+    font-family: 'UniSansSemiBold'!important;
 /*
     writing-mode: vertical-rl;
     text-orientation: upright; 
@@ -1195,7 +1196,7 @@ a:hover {
 
 .accomodation-wrapper .main-heading {
 /*    display: none;*/
-    font-family: Lakeshore;
+    font-family: UniSansBold;
     color: var(--primary-color);
     font-size: 55px;
 }
@@ -1299,7 +1300,7 @@ a:hover {
 
 .registration-wrapper .main-heading {
 /*    display: none;*/
-    font-family: Lakeshore;
+    font-family: UniSansBold;
     color: var(--primary-color);
     font-size: 55px;
 }
