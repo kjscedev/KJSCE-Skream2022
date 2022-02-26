@@ -367,11 +367,11 @@ a:hover {
 }
 
 .sidebar-wrapper .sidebar-option:hover {
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .sidebar-wrapper .sidebar-option.selected {
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 /*-------------------------------------KEYFRAMES-----------------------------------------------*/
