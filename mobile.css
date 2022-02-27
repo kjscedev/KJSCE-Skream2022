@@ -1,9 +1,10 @@
 :root {
-    --bg-color: #001124;
-    --primary-color: #db6020;
-    --secondary-color: #ff7b00;
-    --accent-color: #2C5A8F;
+    --bg-color: #fff;
+    --primary-color: #FD7E2F;
+    --secondary-color: #24D1A4;
+    --accent-color: #cccccc;
 }
+
 
 html,
 body {
