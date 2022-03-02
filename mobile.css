@@ -723,8 +723,8 @@ a:focus, a:hover {
 }
 :root {
     --bg-color: #fff;
-    --primary-color: #f6ad23;
-    --secondary-color: #f6ad23;
+    --primary-color: #FD7E2F;
+    --secondary-color: #24D1A4;
     --accent-color: #cccccc;
 }
 
@@ -760,12 +760,8 @@ body {
     font-family: UniSansLight;
     src: url('./assets/fonts/uni-sans/light.ttf');
 }
-li{
-    list-style: none;
-}
-ul{
-    list-style: none;
-}
+
+
 /************************************************************************************************
                                     GENERAL STYLING SECTION
 ************************************************************************************************/
@@ -990,7 +986,7 @@ ul{
 .sidebar-wrapper {
     width: 100%;
     height: 100%;
-    background-color: #434242;
+    background-color: black;
     display: flex;
     z-index: 999;
     
@@ -1040,7 +1036,7 @@ a:focus, a:hover {
 }
 
 .sidebar-wrapper .sidebar-option.selected {
-    color: #666666;
+    color: #24D1A4;
 }
 
 /************************************************************************************************
@@ -1338,19 +1334,19 @@ a:focus, a:hover {
 .prize-money.team .winning-place .column {
     flex: 1;
     font-size: 20px;
-    color: #000;
+    color: #24D1A4;
     margin-top: 2px;
     margin-right: 2px;
     padding-left: 13px;
     font-family: 'UniSansBold';
     text-transform: uppercase;
-    background: #cccccc;
+    background: #DBFFF5;
 }
 
 .prize-money.team .winning-place .column.label {
     flex: 1;
-    background: #434242;
-    color: #fff;
+    background: #FFEFE5;
+    color: #FD7E2F;
     font-size: 16px;
     text-transform: uppercase;
     padding-top: 5px;
@@ -1402,10 +1398,10 @@ a:focus, a:hover {
     align-items: center;
     margin-right: 2px;
     font-size: 20px;
-    color: #fff;
+    color: #FD7E2F;
     font-family: 'UniSansBold';
     text-transform: uppercase;
-    background: #434242;
+    background: #FFEFE5;
 }
 
 @media (max-width: 320px) {
@@ -2225,11 +2221,10 @@ a:focus, a:hover {
 
 .rules-wrapper .main-heading {
     font-size: 55px;
-    color: var(--secondary-color);
-    text-transform: uppercase;
+    color: var(--primary-color);
     text-align: center;
     letter-spacing: 2px;
-    font-family: Lakeshore;
+    font-family: UniSansBold;
 }
 @media (max-width: 320px) {
     .rules-wrapper .main-heading  {
@@ -2318,11 +2313,10 @@ a:focus, a:hover {
 
 .accomodation-wrapper .main-heading {
     font-size: 35px;
-    color: var(--secondary-color);
-    text-transform: uppercase;
+    color: var(--primary-color);
     text-align: center;
     letter-spacing: 2px;
-    font-family: Lakeshore;
+    font-family: UniSansBold;
 }
 
 @media (max-width: 320px) {
@@ -2427,11 +2421,10 @@ a:focus, a:hover {
 
 .registration-wrapper .main-heading {
     font-size: 35px;
-    color: var(--secondary-color);
-    text-transform: uppercase;
+    color: var(--primary-color);
     text-align: center;
     letter-spacing: 2px;
-    font-family: Lakeshore;
+    font-family: UniSansBold;
 }
 
 
