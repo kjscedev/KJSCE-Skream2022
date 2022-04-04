@@ -16,7 +16,7 @@ $(function () {
         });
 
 
-    $('#2020').show();
+    // $('#2020').show();
         $('#2020-pill').click(function () {
             hideAll();
             console.log("Clicked 2020");
@@ -32,7 +32,6 @@ $(function () {
 
     $('#2019-pill').click(function () {
         hideAll();
-
         console.log("Clicked 2019");
         $('#2019').show();
         $('#2019-pill').addClass("active");
