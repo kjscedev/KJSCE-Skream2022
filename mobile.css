@@ -1181,13 +1181,13 @@ a:focus, a:hover {
 }
 
 #about-section {
-    background: url('assets/images/SKREAM-20-IMAGES/WEBSITE%20ABOUT.png') no-repeat center center;
+    background: url('assets/images/SKREAM-20-IMAGES/WEBSITEABOUT.png') no-repeat center center;
     background-size: cover;
     opacity: 0.8;
 }
 
 #about-section-2 {
-    background: url('assets/images/SKREAM-20-IMAGES/WEBSITEMAIN.png') no-repeat center center;
+    background: url('assets/images/SKREAM-20-IMAGES/aboutSKREAM.png') no-repeat center center;
     background-size: cover;
     opacity: 0.8;
 }
